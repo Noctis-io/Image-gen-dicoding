@@ -12,7 +12,7 @@ warnings.filterwarnings("ignore")
 st.set_page_config(page_title="Stable Diffusion Pipeline", layout="wide")
 
 AUTHOR_NAME = "Feri Putra"
-HF_TOKEN = os.environ.get("HF_TOKEN", st.secrets.get("HF_TOKEN", ""))
+HF_TOKEN = "3GzVJA5diEnH0sVVH4mmMjp5MgA_6aiJ8pWUJtcqWXcapsG84"
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 MODEL_ID = "runwayml/stable-diffusion-v1-5"
 INPAINT_MODEL_ID = "runwayml/stable-diffusion-inpainting"
